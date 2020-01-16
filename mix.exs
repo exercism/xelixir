@@ -1,14 +1,12 @@
-defmodule ExercismTestRunner.Mixfile do
+defmodule ExercismElixir.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app: :tests,
+      app: :exercism_elixir,
       version: "0.0.1",
       elixir: "~> 1.3",
       deps: deps(),
-      test_paths: ["exercises"],
-      consolidate_protocols: false,
       dialyzer: [paths: ["tmp/build"]]
     ]
   end
@@ -18,6 +16,9 @@ defmodule ExercismTestRunner.Mixfile do
   end
 
   defp deps do
-    [{:dialyxir, "~> 0.5"}]
+    [
+      {:jason, "~> 1.1"},
+      {:dialyxir, "~> 0.5"}
+    ]
   end
 end
