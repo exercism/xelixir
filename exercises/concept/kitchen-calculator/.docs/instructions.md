@@ -1,6 +1,6 @@
 # Instructions
 
-While preparing to bake cookies for your friends, you have found that you have to convert some of the ingredients used in the recipe for your friends. Being only familiar with the metric system, you need to come up with a way to convert common US baking measurements to milliliters (mL) for your own ease.
+While preparing to bake cookies for your friends, you have found that you have to convert some of the measurements used in the recipe. Being only familiar with the metric system, you need to come up with a way to convert common US baking measurements to milliliters (mL) for your own ease.
 
 Use this conversion chart for your solution:
 
@@ -12,7 +12,7 @@ Use this conversion chart for your solution:
 | US teaspoon     | 1      | 5                   |
 | US tablespoon   | 1      | 15                  |
 
-Being a talented programmer in training, you decide to use milliliters as a transition unit to facilitate the conversion from any unit listed to any other (even itself)
+Being a talented programmer in training, you decide to use milliliters as a transition unit to facilitate the conversion from any unit listed to any other (even itself).
 
 ## 1. Get the numeric component from a volume-pair
 
